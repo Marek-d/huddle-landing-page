@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+}
+
+/* HEADER */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url("images/bg-hero-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5% 5%;
+}
+
+.header-logo .logo img {
+    height: 70%;
+}
+
+.header-logo .tryit-btn {
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10em;
+    border: solid 2px #E3E3E3;
+    box-shadow: 2px 2px 8px #EBEBEB;
+}
+
+.header-logo .tryit-btn a:link,
+.header-logo .tryit-btn a:visited {
+    display: inline-block;
+    padding: 0.7em 3em;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.header-logo .tryit-btn a:hover,
+.header-logo .tryit-btn a:active {
+    color: hsl(208, 11%, 55%);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8% 5%;
+}
+
+.header-content .header-text {
+    width: 50%;
+}
+
+.header-content .header-text h1 {
+   margin-top: 18%;
+   font-family: 'Poppins', sans-serif;
+   font-size: 2.4em; 
+}
+
+.header-content .header-text p {
+    margin-top: 6%;
+    font-size: 1.025em;
+    margin-right: 15%;
+    line-height: 1.5em;
+}
+
+.header-text .start-btn {
+    background-color: hsl(322, 100%, 66%);
+    display: inline-block;
+    margin-top: 5%;
+    border-radius: 2em;
+}
+
+.header-text .start-btn:hover,
+.header-text .start-btn:active {
+    opacity: 0.8;
+}
+
+.header-text .start-btn a:link,
+.header-text .start-btn a:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.9em 3em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header-content .header-image {
+    width: 60%;
+}
+
+.header-content .header-image img{
+    width: 100%;
+}
+
+/* SECTIONS */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    border: solid 6px #FFFAFA;
+    border-radius: 0.9em;
+}
+
+section:nth-child(3) {
+    flex-direction: row-reverse;
+}
+
+section:nth-child(3) .section-text {
+    margin-right: 0;
+    margin-left: 4%;
+}
+
+section:nth-child(3) .section-image {
+    margin-left: 4%;
+}
+
+section .section-text {
+    width: 80%;
+    padding: 9% 8%;
+    margin-right: 10%;
+}
+
+section .section-text h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2.5%;
+}
+
+section .section-text p {
+    color: hsl(208, 11%, 55%);
+    line-height: 1.4em;
+}
+
+section .section-image {
+    width: 50%;
+    padding: 2%;
+}
+
+section .section-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* BANNER */
+
+.banner {
+    margin: 7% auto;
+    padding: 3% 5%;
+    border: solid 6px #FFFAFA;
+    background-color: #fff;
+    width: 50%;
+    border-radius: 0.9em;
+}
+
+.banner p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.banner .start-btn {
+    display: inline-block;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 2em;
+    margin-top: 2em;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.banner .start-btn:hover,
+.banner .start-btn:active {
+    opacity: 0.8;
+}
+
+.banner .start-btn a:link,
+.banner .start-btn a:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 3.6em;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 10em 5em 3em 5em;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -16em;
+    z-index: -1;
+}
+
+footer > div:nth-child(n+2) {
+    padding-left: 3em;
+}
+
+footer > div:last-child {
+    padding-left: 1em;
+}
+
+footer .contact {
+    width: 40%;
+}
+
+footer .contact .logo {
+    width: 35%;
+}
+
+footer .contact .logo img {
+    width: 100%;
+    filter: brightness(0) invert(1);
+}
+
+footer .contact div:nth-child(n+2) {
+    margin: 1.9em 0;
+}
+
+footer .contact div:nth-child(n+2) p {
+    margin-left: 2.4em;
+    margin-top: -1.6em;
+}
+
+footer .info-links-1,
+footer .info-links-2,
+footer .social-links {
+    width: 20%;
+    margin-top: 3.6em;
+}
+
+footer .info-links-1 li,
+footer .info-links-2 li {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+footer .info-links-1 li a,
+footer .info-links-2 li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .info-links-1 li a:hover,
+footer .info-links-2 li a:hover {
+    text-decoration: underline;
+}
+
+footer .social-links i {
+    width: 33.6px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin-right: 6px;
+    text-align: center;
+}
+
+footer .social-links i:hover {
+    color: hsl(322, 100%, 66%);
+    border: solid 1px hsl(322, 100%, 66%);
+}
+
+footer .social-links p {
+    font-size: 0.7em;
+    margin-top: 45%;
+}
+
+/* REUSABLE */
+
+.center {
+    width: 85%;
+    margin: 2% auto;
+}

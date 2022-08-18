@@ -1,0 +1,148 @@
+@media only screen and (max-width: 895px) {
+    footer {
+        padding: 10em 0.5em 3em 2em;
+        bottom: -22rem;
+        gap: 10px;
+    }
+
+    footer .contact {
+        margin: 0;
+    }
+
+    footer .contact .logo {
+        width: 10rem;
+    }
+
+    footer .social-links p {
+        text-align: center;
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    footer {
+        bottom: -28rem;
+    }
+
+    footer .social-links i {
+        display: block;
+        width: 33.6px;
+        margin: 6px auto;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    header {
+        margin-bottom: 2em;
+        padding-bottom: 2em;
+    }
+
+    .header-logo {
+        padding: 2em;
+    }
+    
+    .header-logo .logo img {
+        width: 80%;
+    }
+
+    .header-logo .tryit-btn a:link,
+    .header-logo .tryit-btn a:visited {
+        padding: 0.3em 1.3em;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .header-content {
+        display: block;
+        padding: 0 1.5em;
+    }
+
+    .header-content .header-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content .header-text h1 {
+        font-size: 2em;
+    }
+
+    .header-text .start-btn a:link,
+    .header-text .start-btn a:visited {
+        padding: 0.9em 3.9em;
+    }
+
+    .header-content .header-image {
+        width: 100%;
+        margin-top: 3em;
+    }
+
+    /* SECTIONS */
+
+    section {
+        flex-flow: column !important;
+    }
+
+    section .section-text {
+        order: 2;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    section .section-image {
+        order: 1;
+        width: 100%;
+        padding: 3em;
+    }
+
+    /* BANNER */
+
+    .banner {
+        width: 92%;
+        margin-top: 20%;
+        padding: 8% 5%;
+    }
+
+    footer {
+        bottom: -43rem;
+        display: block;
+        padding: 10em 1.5em 3em 1.5em;
+    }
+
+    footer > div:nth-child(n+2) {
+        padding-left: 0;
+    }
+
+    footer .contact {
+        width: 100%;
+    }
+
+    footer .contact .logo {
+        width: 11.5rem;
+    }
+
+    footer .info-links-1,
+    footer .info-links-2,
+    footer .social-links {
+        width: 100%;
+    }
+
+    footer .info-links-2 {
+        margin-top: 0;
+    }
+
+    footer .social-links div {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    footer .social-links i {
+        margin: 0;
+    }
+
+    footer .social-links p {
+        margin-top: 4em;
+        text-align: center;
+    }
+}
